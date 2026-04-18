@@ -2240,6 +2240,372 @@ proxies:
       path: /proxy
       headers:
         Host: xinjiapo1.zqjsqapi.com
+  - name: 🇺🇸US_1|219KB/s_1
+    type: vless
+    server: 144.31.127.61
+    port: 443
+    uuid: d5f95f47-9399-49c6-a76b-aa6b289609ba
+    servername: gateway.icloud.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: -ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk
+      short-id: c6118398
+  - name: 香港-优化-Gemini_1
+    type: vmess
+    server: planb.mojcn.com
+    port: 16632
+    uuid: 0f1fabc8-a9f4-47a6-8613-0cb9a026850b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 3d6d9e1616638015f7c5c67085c5bfd8.mobgslb.tbcache.com
+  - name: 🇰🇷 KR 266 | ⬇️ 9MB/s
+    type: vless
+    server: krp01.jumperservice.com
+    port: 19001
+    uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
+    servername: addons.mozilla.org
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+  - name: 🇨🇿CZ_1|258KB/s_1
+    type: vless
+    server: 86.54.82.239
+    port: 443
+    uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+    servername: store.steampowered.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: xzCEjrybgdtiyOYNKgEAEWzHjvsE2Pkj198_Ch1gZ2U
+      short-id: 41427aa565e28984
+  - name: 🇯🇵 日本 05
+    type: hysteria2
+    server: 151.241.130.90
+    port: 55000
+    password: 9d9519a0-7df0-42a4-a765-29512ab65f5c
+    sni: www.bing.com
+    skip-cert-verify: true
+  - name: 🇸🇬SG_1|258KB/s
+    type: hysteria2
+    server: sg-hy2.onetaplink.app
+    port: 443
+    password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+    sni: hy2-sg.onetaplink.app
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: OrT7yQQIMqcvKdet
+  - name: AT（2026.4.18更新）
+    type: trojan
+    server: 152.53.200.167
+    port: 8444
+    password: trojan
+    sni: jflsjlaf.pages.dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /
+  - name: 🇭🇰HK_1|261KB/s_1
+    type: vless
+    server: 216.57.105.74
+    port: 443
+    uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk
+      short-id: "11e2"
+  - name: 🇨🇭CH_1|212KB/s
+    type: vless
+    server: 138.124.98.9
+    port: 443
+    uuid: 913c6074-a747-492b-a7e9-5abfcad6369d
+    servername: nl.milas.click
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY
+      short-id: 4fa44664f6a566d3
+  - name: 🇺🇸US_12|624KB/s_1
+    type: hysteria2
+    server: vpn-us-021.fastervpn.world
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    sni: vpn-us-021.fastervpn.world
+    skip-cert-verify: true
+  - name: AT
+    type: trojan
+    server: 152.53.200.98
+    port: 8444
+    password: trojan
+    sni: jflsjlaf.pages.dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: //
+      headers:
+        Host: jflsjlaf.pages.dev
+  - name: AT_1
+    type: trojan
+    server: 152.53.60.198
+    port: 8444
+    password: trojan
+    sni: jflsjlaf.pages.dev
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /
+  - name: 🇳🇱NL_1|261KB/s
+    type: trojan
+    server: 152.53.200.167
+    port: 8444
+    password: trojan
+    sni: jflsjlaf.pages.dev
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: jflsjlaf.pages.dev
+  - name: 🇲🇩MD_1|25KB/s_1
+    type: vless
+    server: 93.185.166.211
+    port: 443
+    uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
+    servername: sun6-21.userapi.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: CtifAtvBslpcKrjnoHUAR7AlptShWlecyy38owglTWA
+      short-id: c60c
+  - name: 美国丨yoyapai.com|48KB/s_1
+    type: trojan
+    server: 152.53.60.198
+    port: 8444
+    password: trojan
+    sni: jflsjlaf.pages.dev
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /
+  - name: AT_2
+    type: trojan
+    server: 152.53.200.98
+    port: 8444
+    password: trojan
+    sni: jflsjlaf.pages.dev
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: jflsjlaf.pages.dev
+  - name: 🇩🇪DE_8|258KB/s_1
+    type: vless
+    server: 18.245.54.3
+    port: 443
+    uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
+    network: ws
+    servername: d23iuljn5k9z1j.cloudfront.net
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: d23iuljn5k9z1j.cloudfront.net
+  - name: 🇺🇸US_14|341KB/s_1
+    type: hysteria2
+    server: vpn-us-018.fastervpn.world
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    sni: vpn-us-018.fastervpn.world
+    skip-cert-verify: true
+  - name: 🇩🇪 德国 04
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 🇺🇸US_2|329KB/s
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 🇩🇪 德国 01
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 🇺🇸US_18|334KB/s_1
+    type: trojan
+    server: 104.16.148.10
+    port: 443
+    password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+    sni: cm22-bgphhh.pages.dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /buy/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
+      headers:
+        Host: cm22-bgphhh.pages.dev
+  - name: 🇩🇪 德国 08
+    type: vmess
+    server: 82.198.246.46
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 🇺🇸 US 217 | ⬇️ 5MB/s
+    type: vmess
+    server: 82.198.246.46
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 日本-优化3
+    type: vmess
+    server: t.cnmjcn.cyou
+    port: 16617
+    uuid: 0f1fabc8-a9f4-47a6-8613-0cb9a026850b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 3d6d9e1616638015f7c5c67085c5bfd8.mobgslb.tbcache.com
+  - name: 🇰🇷 KR 265 | ⬇️ 1MB/s
+    type: vless
+    server: krp01.jumperservice.com
+    port: 19001
+    uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f
+    servername: addons.mozilla.org
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+  - name: 新加坡-优化-Gemini-GPT_1
+    type: vmess
+    server: planb.mojcn.com
+    port: 16618
+    uuid: 0f1fabc8-a9f4-47a6-8613-0cb9a026850b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 3d6d9e1616638015f7c5c67085c5bfd8.mobgslb.tbcache.com
+  - name: 香港-优化2-Gemini_1
+    type: vmess
+    server: m.cnmjin.net
+    port: 16632
+    uuid: 0f1fabc8-a9f4-47a6-8613-0cb9a026850b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 3d6d9e1616638015f7c5c67085c5bfd8.mobgslb.tbcache.com
+  - name: 香港-优化3-Gemini_1
+    type: vmess
+    server: t.cnmjcn.cyou
+    port: 16632
+    uuid: 0f1fabc8-a9f4-47a6-8613-0cb9a026850b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 3d6d9e1616638015f7c5c67085c5bfd8.mobgslb.tbcache.com
+  - name: 🇺🇸US_17|521KB/s_1
+    type: trojan
+    server: ct.090227.xyz
+    port: 443
+    password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+    sni: cm22-bgphhh.pages.dev
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /dl/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80?ed=2560
+  - name: 新加坡-优化2-Gemini-GPT_1
+    type: vmess
+    server: m.cnmjin.net
+    port: 16618
+    uuid: 0f1fabc8-a9f4-47a6-8613-0cb9a026850b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 3d6d9e1616638015f7c5c67085c5bfd8.mobgslb.tbcache.com
+  - name: 新加坡-优化3-Gemini_1
+    type: vmess
+    server: t.cnmjcn.cyou
+    port: 16618
+    uuid: 0f1fabc8-a9f4-47a6-8613-0cb9a026850b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 3d6d9e1616638015f7c5c67085c5bfd8.mobgslb.tbcache.com
+  - name: 🇺🇸US_19|517KB/s_1
+    type: trojan
+    server: mfa.gov.ua
+    port: 2096
+    password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+    sni: cm22-bgphhh.pages.dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: cm22-bgphhh.pages.dev
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -2470,6 +2836,39 @@ proxy-groups:
       - 美国(TG:@tccjd)_68
       - 美国(TG:@tccjd)_69
       - 新加坡(TG:@tccjd)_2
+      - 🇺🇸US_1|219KB/s_1
+      - 香港-优化-Gemini_1
+      - 🇰🇷 KR 266 | ⬇️ 9MB/s
+      - 🇨🇿CZ_1|258KB/s_1
+      - 🇯🇵 日本 05
+      - 🇸🇬SG_1|258KB/s
+      - AT（2026.4.18更新）
+      - 🇭🇰HK_1|261KB/s_1
+      - 🇨🇭CH_1|212KB/s
+      - 🇺🇸US_12|624KB/s_1
+      - AT
+      - AT_1
+      - 🇳🇱NL_1|261KB/s
+      - 🇲🇩MD_1|25KB/s_1
+      - 美国丨yoyapai.com|48KB/s_1
+      - AT_2
+      - 🇩🇪DE_8|258KB/s_1
+      - 🇺🇸US_14|341KB/s_1
+      - 🇩🇪 德国 04
+      - 🇺🇸US_2|329KB/s
+      - 🇩🇪 德国 01
+      - 🇺🇸US_18|334KB/s_1
+      - 🇩🇪 德国 08
+      - 🇺🇸 US 217 | ⬇️ 5MB/s
+      - 日本-优化3
+      - 🇰🇷 KR 265 | ⬇️ 1MB/s
+      - 新加坡-优化-Gemini-GPT_1
+      - 香港-优化2-Gemini_1
+      - 香港-优化3-Gemini_1
+      - 🇺🇸US_17|521KB/s_1
+      - 新加坡-优化2-Gemini-GPT_1
+      - 新加坡-优化3-Gemini_1
+      - 🇺🇸US_19|517KB/s_1
   - name: ♻️ 自动选择
     type: url-test
     proxies:
@@ -2697,6 +3096,39 @@ proxy-groups:
       - 美国(TG:@tccjd)_68
       - 美国(TG:@tccjd)_69
       - 新加坡(TG:@tccjd)_2
+      - 🇺🇸US_1|219KB/s_1
+      - 香港-优化-Gemini_1
+      - 🇰🇷 KR 266 | ⬇️ 9MB/s
+      - 🇨🇿CZ_1|258KB/s_1
+      - 🇯🇵 日本 05
+      - 🇸🇬SG_1|258KB/s
+      - AT（2026.4.18更新）
+      - 🇭🇰HK_1|261KB/s_1
+      - 🇨🇭CH_1|212KB/s
+      - 🇺🇸US_12|624KB/s_1
+      - AT
+      - AT_1
+      - 🇳🇱NL_1|261KB/s
+      - 🇲🇩MD_1|25KB/s_1
+      - 美国丨yoyapai.com|48KB/s_1
+      - AT_2
+      - 🇩🇪DE_8|258KB/s_1
+      - 🇺🇸US_14|341KB/s_1
+      - 🇩🇪 德国 04
+      - 🇺🇸US_2|329KB/s
+      - 🇩🇪 德国 01
+      - 🇺🇸US_18|334KB/s_1
+      - 🇩🇪 德国 08
+      - 🇺🇸 US 217 | ⬇️ 5MB/s
+      - 日本-优化3
+      - 🇰🇷 KR 265 | ⬇️ 1MB/s
+      - 新加坡-优化-Gemini-GPT_1
+      - 香港-优化2-Gemini_1
+      - 香港-优化3-Gemini_1
+      - 🇺🇸US_17|521KB/s_1
+      - 新加坡-优化2-Gemini-GPT_1
+      - 新加坡-优化3-Gemini_1
+      - 🇺🇸US_19|517KB/s_1
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -2930,6 +3362,39 @@ proxy-groups:
       - 美国(TG:@tccjd)_68
       - 美国(TG:@tccjd)_69
       - 新加坡(TG:@tccjd)_2
+      - 🇺🇸US_1|219KB/s_1
+      - 香港-优化-Gemini_1
+      - 🇰🇷 KR 266 | ⬇️ 9MB/s
+      - 🇨🇿CZ_1|258KB/s_1
+      - 🇯🇵 日本 05
+      - 🇸🇬SG_1|258KB/s
+      - AT（2026.4.18更新）
+      - 🇭🇰HK_1|261KB/s_1
+      - 🇨🇭CH_1|212KB/s
+      - 🇺🇸US_12|624KB/s_1
+      - AT
+      - AT_1
+      - 🇳🇱NL_1|261KB/s
+      - 🇲🇩MD_1|25KB/s_1
+      - 美国丨yoyapai.com|48KB/s_1
+      - AT_2
+      - 🇩🇪DE_8|258KB/s_1
+      - 🇺🇸US_14|341KB/s_1
+      - 🇩🇪 德国 04
+      - 🇺🇸US_2|329KB/s
+      - 🇩🇪 德国 01
+      - 🇺🇸US_18|334KB/s_1
+      - 🇩🇪 德国 08
+      - 🇺🇸 US 217 | ⬇️ 5MB/s
+      - 日本-优化3
+      - 🇰🇷 KR 265 | ⬇️ 1MB/s
+      - 新加坡-优化-Gemini-GPT_1
+      - 香港-优化2-Gemini_1
+      - 香港-优化3-Gemini_1
+      - 🇺🇸US_17|521KB/s_1
+      - 新加坡-优化2-Gemini-GPT_1
+      - 新加坡-优化3-Gemini_1
+      - 🇺🇸US_19|517KB/s_1
   - name: 📲 电报信息
     type: select
     proxies:
@@ -3159,6 +3624,39 @@ proxy-groups:
       - 美国(TG:@tccjd)_68
       - 美国(TG:@tccjd)_69
       - 新加坡(TG:@tccjd)_2
+      - 🇺🇸US_1|219KB/s_1
+      - 香港-优化-Gemini_1
+      - 🇰🇷 KR 266 | ⬇️ 9MB/s
+      - 🇨🇿CZ_1|258KB/s_1
+      - 🇯🇵 日本 05
+      - 🇸🇬SG_1|258KB/s
+      - AT（2026.4.18更新）
+      - 🇭🇰HK_1|261KB/s_1
+      - 🇨🇭CH_1|212KB/s
+      - 🇺🇸US_12|624KB/s_1
+      - AT
+      - AT_1
+      - 🇳🇱NL_1|261KB/s
+      - 🇲🇩MD_1|25KB/s_1
+      - 美国丨yoyapai.com|48KB/s_1
+      - AT_2
+      - 🇩🇪DE_8|258KB/s_1
+      - 🇺🇸US_14|341KB/s_1
+      - 🇩🇪 德国 04
+      - 🇺🇸US_2|329KB/s
+      - 🇩🇪 德国 01
+      - 🇺🇸US_18|334KB/s_1
+      - 🇩🇪 德国 08
+      - 🇺🇸 US 217 | ⬇️ 5MB/s
+      - 日本-优化3
+      - 🇰🇷 KR 265 | ⬇️ 1MB/s
+      - 新加坡-优化-Gemini-GPT_1
+      - 香港-优化2-Gemini_1
+      - 香港-优化3-Gemini_1
+      - 🇺🇸US_17|521KB/s_1
+      - 新加坡-优化2-Gemini-GPT_1
+      - 新加坡-优化3-Gemini_1
+      - 🇺🇸US_19|517KB/s_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -3388,6 +3886,39 @@ proxy-groups:
       - 美国(TG:@tccjd)_68
       - 美国(TG:@tccjd)_69
       - 新加坡(TG:@tccjd)_2
+      - 🇺🇸US_1|219KB/s_1
+      - 香港-优化-Gemini_1
+      - 🇰🇷 KR 266 | ⬇️ 9MB/s
+      - 🇨🇿CZ_1|258KB/s_1
+      - 🇯🇵 日本 05
+      - 🇸🇬SG_1|258KB/s
+      - AT（2026.4.18更新）
+      - 🇭🇰HK_1|261KB/s_1
+      - 🇨🇭CH_1|212KB/s
+      - 🇺🇸US_12|624KB/s_1
+      - AT
+      - AT_1
+      - 🇳🇱NL_1|261KB/s
+      - 🇲🇩MD_1|25KB/s_1
+      - 美国丨yoyapai.com|48KB/s_1
+      - AT_2
+      - 🇩🇪DE_8|258KB/s_1
+      - 🇺🇸US_14|341KB/s_1
+      - 🇩🇪 德国 04
+      - 🇺🇸US_2|329KB/s
+      - 🇩🇪 德国 01
+      - 🇺🇸US_18|334KB/s_1
+      - 🇩🇪 德国 08
+      - 🇺🇸 US 217 | ⬇️ 5MB/s
+      - 日本-优化3
+      - 🇰🇷 KR 265 | ⬇️ 1MB/s
+      - 新加坡-优化-Gemini-GPT_1
+      - 香港-优化2-Gemini_1
+      - 香港-优化3-Gemini_1
+      - 🇺🇸US_17|521KB/s_1
+      - 新加坡-优化2-Gemini-GPT_1
+      - 新加坡-优化3-Gemini_1
+      - 🇺🇸US_19|517KB/s_1
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -3617,6 +4148,39 @@ proxy-groups:
       - 美国(TG:@tccjd)_68
       - 美国(TG:@tccjd)_69
       - 新加坡(TG:@tccjd)_2
+      - 🇺🇸US_1|219KB/s_1
+      - 香港-优化-Gemini_1
+      - 🇰🇷 KR 266 | ⬇️ 9MB/s
+      - 🇨🇿CZ_1|258KB/s_1
+      - 🇯🇵 日本 05
+      - 🇸🇬SG_1|258KB/s
+      - AT（2026.4.18更新）
+      - 🇭🇰HK_1|261KB/s_1
+      - 🇨🇭CH_1|212KB/s
+      - 🇺🇸US_12|624KB/s_1
+      - AT
+      - AT_1
+      - 🇳🇱NL_1|261KB/s
+      - 🇲🇩MD_1|25KB/s_1
+      - 美国丨yoyapai.com|48KB/s_1
+      - AT_2
+      - 🇩🇪DE_8|258KB/s_1
+      - 🇺🇸US_14|341KB/s_1
+      - 🇩🇪 德国 04
+      - 🇺🇸US_2|329KB/s
+      - 🇩🇪 德国 01
+      - 🇺🇸US_18|334KB/s_1
+      - 🇩🇪 德国 08
+      - 🇺🇸 US 217 | ⬇️ 5MB/s
+      - 日本-优化3
+      - 🇰🇷 KR 265 | ⬇️ 1MB/s
+      - 新加坡-优化-Gemini-GPT_1
+      - 香港-优化2-Gemini_1
+      - 香港-优化3-Gemini_1
+      - 🇺🇸US_17|521KB/s_1
+      - 新加坡-优化2-Gemini-GPT_1
+      - 新加坡-优化3-Gemini_1
+      - 🇺🇸US_19|517KB/s_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3863,6 +4427,39 @@ proxy-groups:
       - 美国(TG:@tccjd)_68
       - 美国(TG:@tccjd)_69
       - 新加坡(TG:@tccjd)_2
+      - 🇺🇸US_1|219KB/s_1
+      - 香港-优化-Gemini_1
+      - 🇰🇷 KR 266 | ⬇️ 9MB/s
+      - 🇨🇿CZ_1|258KB/s_1
+      - 🇯🇵 日本 05
+      - 🇸🇬SG_1|258KB/s
+      - AT（2026.4.18更新）
+      - 🇭🇰HK_1|261KB/s_1
+      - 🇨🇭CH_1|212KB/s
+      - 🇺🇸US_12|624KB/s_1
+      - AT
+      - AT_1
+      - 🇳🇱NL_1|261KB/s
+      - 🇲🇩MD_1|25KB/s_1
+      - 美国丨yoyapai.com|48KB/s_1
+      - AT_2
+      - 🇩🇪DE_8|258KB/s_1
+      - 🇺🇸US_14|341KB/s_1
+      - 🇩🇪 德国 04
+      - 🇺🇸US_2|329KB/s
+      - 🇩🇪 德国 01
+      - 🇺🇸US_18|334KB/s_1
+      - 🇩🇪 德国 08
+      - 🇺🇸 US 217 | ⬇️ 5MB/s
+      - 日本-优化3
+      - 🇰🇷 KR 265 | ⬇️ 1MB/s
+      - 新加坡-优化-Gemini-GPT_1
+      - 香港-优化2-Gemini_1
+      - 香港-优化3-Gemini_1
+      - 🇺🇸US_17|521KB/s_1
+      - 新加坡-优化2-Gemini-GPT_1
+      - 新加坡-优化3-Gemini_1
+      - 🇺🇸US_19|517KB/s_1
 rule-providers:
   LocalAreaNetwork:
     type: http
