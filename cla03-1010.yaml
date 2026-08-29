@@ -24,42 +24,6 @@ dns:
       - https://1.1.1.1/dns-query#🚀 节点选择
       - https://8.8.8.8/dns-query#🚀 节点选择
 proxies:
-  - name: 🇯🇵 日本 | JPN
-    type: vless
-    server: 13.231.69.194
-    port: 35229
-    uuid: caaa44ad-b3d5-4f55-9507-5b57942f6922
-    servername: www.nvidia.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: JKEgmSckzu3wmGo2_wl8Xij0-PsE8QOvrEO6jS8IfFY
-      short-id: "0056222303"
-    skip-cert-verify: true
-    udp: true
-  - name: 🇯🇵 日本 | JPN_1
-    type: hysteria2
-    server: 140.238.43.0
-    port: 50160
-    password: 9c5be37406b6584005b8de0ee3734dd9
-    sni: www.bing.com
-    skip-cert-verify: true
-    udp: true
-  - name: 🇯🇵 日本 | JPN_2
-    type: vless
-    server: 18.183.215.124
-    port: 28573
-    uuid: 871bfce7-8440-4394-8d82-56b51f20fdad
-    servername: www.sony.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: 1DJr9toke7FRuSXjibBVuNvRnLnJnN5kXwUBG6Romzg
-      short-id: 03653bc03be10c97
-    skip-cert-verify: true
-    udp: true
   - name: 🇩🇪 德国 | DEU
     type: ss
     server: 130.61.87.118
@@ -92,6 +56,58 @@ proxies:
     password: zEoIXTFhh/Z+Mf6dR5l7gdbRVuB0tFFEFUqKxi8hOt8=
     skip-cert-verify: true
     udp: true
+  - name: 🇷🇺 俄罗斯 | RUS
+    type: ss
+    server: 195.133.23.200
+    port: 10501
+    cipher: aes-256-gcm
+    password: 81a20429165df87e
+    skip-cert-verify: true
+    udp: true
+  - name: 加拿大(TG:@tccjd)
+    type: ss
+    server: 130.61.233.63
+    port: 59924
+    cipher: 2022-blake3-chacha20-poly1305
+    password: mep9mzR3cG4vUy51p++Xst0L0p98TWYR38sAAFr3yJY=
+    skip-cert-verify: true
+    udp: true
+  - name: 美国(TG:@tccjd)
+    type: ss
+    server: 129.146.5.37
+    port: 50356
+    cipher: 2022-blake3-chacha20-poly1305
+    password: MGz9U4B+bIMMsn4gnNU/2sKJ85zQtoXyP7DGzLzcro4=
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 日本 | JPN
+    type: vless
+    server: 13.231.69.194
+    port: 35229
+    uuid: caaa44ad-b3d5-4f55-9507-5b57942f6922
+    servername: www.nvidia.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: JKEgmSckzu3wmGo2_wl8Xij0-PsE8QOvrEO6jS8IfFY
+      short-id: "0056222303"
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 日本 | JPN_1
+    type: vless
+    server: 18.183.215.124
+    port: 28573
+    uuid: 871bfce7-8440-4394-8d82-56b51f20fdad
+    servername: www.sony.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: 1DJr9toke7FRuSXjibBVuNvRnLnJnN5kXwUBG6Romzg
+      short-id: 03653bc03be10c97
+    skip-cert-verify: true
+    udp: true
   - name: 🇺🇸 美国 | USA
     type: vless
     server: 45.33.62.166
@@ -106,14 +122,6 @@ proxies:
       short-id: e482c0320674c651
     skip-cert-verify: true
     udp: true
-  - name: 🇩🇪 德国 | DEU_3
-    type: hysteria2
-    server: fin14qr.wwwinternetvideo.click
-    port: 443
-    password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
-    sni: fin14qr.wwwinternetvideo.click
-    skip-cert-verify: true
-    udp: true
   - name: 🇬🇧 英国 | GBR
     type: vless
     server: 109.169.84.72
@@ -126,14 +134,6 @@ proxies:
     reality-opts:
       public-key: vvpu_ljhBuTWmM9w5Hl6jj8ZTiE_JYq29S77zNDeCjQ
       short-id: ff6975658b6cefce
-    skip-cert-verify: true
-    udp: true
-  - name: 🇷🇺 俄罗斯 | RUS
-    type: ss
-    server: 195.133.23.200
-    port: 10501
-    cipher: aes-256-gcm
-    password: 81a20429165df87e
     skip-cert-verify: true
     udp: true
   - name: 🇬🇧 英国 | GBR_1
@@ -180,7 +180,7 @@ proxies:
         Host: usa.korgivps.ru
     skip-cert-verify: true
     udp: true
-  - name: 🇩🇪 德国 | DEU_4
+  - name: 🇩🇪 德国 | DEU_3
     type: vless
     server: 31.76.71.133
     port: 443
@@ -194,7 +194,7 @@ proxies:
       short-id: d68d40aba9c0394a
     skip-cert-verify: true
     udp: true
-  - name: 🇩🇪 德国 | DEU_5
+  - name: 🇩🇪 德国 | DEU_4
     type: vless
     server: 31.76.71.133
     port: 443
@@ -235,14 +235,6 @@ proxies:
         Host: fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir
     skip-cert-verify: true
     udp: true
-  - name: 韩国
-    type: hysteria2
-    server: 132.226.226.189
-    port: 50160
-    password: 1671a252e2a97dc2bda4e515475931da
-    sni: www.bing.com
-    skip-cert-verify: true
-    udp: true
   - name: 01(TG:@tccjd)
     type: vless
     server: 216.167.27.205
@@ -270,14 +262,6 @@ proxies:
       short-id: 4a46213c935e2ee4
     skip-cert-verify: true
     udp: true
-  - name: 加拿大(TG:@tccjd)
-    type: ss
-    server: 130.61.233.63
-    port: 59924
-    cipher: 2022-blake3-chacha20-poly1305
-    password: mep9mzR3cG4vUy51p++Xst0L0p98TWYR38sAAFr3yJY=
-    skip-cert-verify: true
-    udp: true
   - name: 香港(TG:@tccjd)
     type: vless
     server: hkayydswnnds.cfooov.xyz
@@ -292,12 +276,28 @@ proxies:
       short-id: 30752ffd01a85649
     skip-cert-verify: true
     udp: true
-  - name: 美国(TG:@tccjd)
-    type: ss
-    server: 129.146.5.37
-    port: 50356
-    cipher: 2022-blake3-chacha20-poly1305
-    password: MGz9U4B+bIMMsn4gnNU/2sKJ85zQtoXyP7DGzLzcro4=
+  - name: 🇯🇵 日本 | JPN_2
+    type: hysteria2
+    server: 140.238.43.0
+    port: 50160
+    password: 9c5be37406b6584005b8de0ee3734dd9
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇩🇪 德国 | DEU_5
+    type: hysteria2
+    server: fin14qr.wwwinternetvideo.click
+    port: 443
+    password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+    sni: fin14qr.wwwinternetvideo.click
+    skip-cert-verify: true
+    udp: true
+  - name: 韩国
+    type: hysteria2
+    server: 132.226.226.189
+    port: 50160
+    password: 1671a252e2a97dc2bda4e515475931da
+    sni: www.bing.com
     skip-cert-verify: true
     udp: true
   - name: 美国(TG:@tccjd)_1
@@ -370,30 +370,30 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵 日本 | JPN
-      - 🇯🇵 日本 | JPN_1
-      - 🇯🇵 日本 | JPN_2
       - 🇩🇪 德国 | DEU
       - 🇩🇪 德国 | DEU_1
       - 🇳🇱 荷兰 | NLD
       - 🇩🇪 德国 | DEU_2
-      - 🇺🇸 美国 | USA
-      - 🇩🇪 德国 | DEU_3
-      - 🇬🇧 英国 | GBR
       - 🇷🇺 俄罗斯 | RUS
+      - 加拿大(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 🇯🇵 日本 | JPN
+      - 🇯🇵 日本 | JPN_1
+      - 🇺🇸 美国 | USA
+      - 🇬🇧 英国 | GBR
       - 🇬🇧 英国 | GBR_1
       - 🇷🇺 俄罗斯 | RUS_1
       - 🇺🇸 美国 | USA_1
+      - 🇩🇪 德国 | DEU_3
       - 🇩🇪 德国 | DEU_4
-      - 🇩🇪 德国 | DEU_5
       - 🇭🇰 香港 | HKG
       - 🇮🇷 伊朗 | IRN
-      - 韩国
       - 01(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 加拿大(TG:@tccjd)
       - 香港(TG:@tccjd)
-      - 美国(TG:@tccjd)
+      - 🇯🇵 日本 | JPN_2
+      - 🇩🇪 德国 | DEU_5
+      - 韩国
       - 美国(TG:@tccjd)_1
       - 阿联酋 01
       - 俄罗斯 01
@@ -405,30 +405,30 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 🇯🇵 日本 | JPN
-      - 🇯🇵 日本 | JPN_1
-      - 🇯🇵 日本 | JPN_2
       - 🇩🇪 德国 | DEU
       - 🇩🇪 德国 | DEU_1
       - 🇳🇱 荷兰 | NLD
       - 🇩🇪 德国 | DEU_2
-      - 🇺🇸 美国 | USA
-      - 🇩🇪 德国 | DEU_3
-      - 🇬🇧 英国 | GBR
       - 🇷🇺 俄罗斯 | RUS
+      - 加拿大(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 🇯🇵 日本 | JPN
+      - 🇯🇵 日本 | JPN_1
+      - 🇺🇸 美国 | USA
+      - 🇬🇧 英国 | GBR
       - 🇬🇧 英国 | GBR_1
       - 🇷🇺 俄罗斯 | RUS_1
       - 🇺🇸 美国 | USA_1
+      - 🇩🇪 德国 | DEU_3
       - 🇩🇪 德国 | DEU_4
-      - 🇩🇪 德国 | DEU_5
       - 🇭🇰 香港 | HKG
       - 🇮🇷 伊朗 | IRN
-      - 韩国
       - 01(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 加拿大(TG:@tccjd)
       - 香港(TG:@tccjd)
-      - 美国(TG:@tccjd)
+      - 🇯🇵 日本 | JPN_2
+      - 🇩🇪 德国 | DEU_5
+      - 韩国
       - 美国(TG:@tccjd)_1
       - 阿联酋 01
       - 俄罗斯 01
@@ -446,30 +446,30 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本 | JPN
-      - 🇯🇵 日本 | JPN_1
-      - 🇯🇵 日本 | JPN_2
       - 🇩🇪 德国 | DEU
       - 🇩🇪 德国 | DEU_1
       - 🇳🇱 荷兰 | NLD
       - 🇩🇪 德国 | DEU_2
-      - 🇺🇸 美国 | USA
-      - 🇩🇪 德国 | DEU_3
-      - 🇬🇧 英国 | GBR
       - 🇷🇺 俄罗斯 | RUS
+      - 加拿大(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 🇯🇵 日本 | JPN
+      - 🇯🇵 日本 | JPN_1
+      - 🇺🇸 美国 | USA
+      - 🇬🇧 英国 | GBR
       - 🇬🇧 英国 | GBR_1
       - 🇷🇺 俄罗斯 | RUS_1
       - 🇺🇸 美国 | USA_1
+      - 🇩🇪 德国 | DEU_3
       - 🇩🇪 德国 | DEU_4
-      - 🇩🇪 德国 | DEU_5
       - 🇭🇰 香港 | HKG
       - 🇮🇷 伊朗 | IRN
-      - 韩国
       - 01(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 加拿大(TG:@tccjd)
       - 香港(TG:@tccjd)
-      - 美国(TG:@tccjd)
+      - 🇯🇵 日本 | JPN_2
+      - 🇩🇪 德国 | DEU_5
+      - 韩国
       - 美国(TG:@tccjd)_1
       - 阿联酋 01
       - 俄罗斯 01
@@ -483,30 +483,30 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵 日本 | JPN
-      - 🇯🇵 日本 | JPN_1
-      - 🇯🇵 日本 | JPN_2
       - 🇩🇪 德国 | DEU
       - 🇩🇪 德国 | DEU_1
       - 🇳🇱 荷兰 | NLD
       - 🇩🇪 德国 | DEU_2
-      - 🇺🇸 美国 | USA
-      - 🇩🇪 德国 | DEU_3
-      - 🇬🇧 英国 | GBR
       - 🇷🇺 俄罗斯 | RUS
+      - 加拿大(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 🇯🇵 日本 | JPN
+      - 🇯🇵 日本 | JPN_1
+      - 🇺🇸 美国 | USA
+      - 🇬🇧 英国 | GBR
       - 🇬🇧 英国 | GBR_1
       - 🇷🇺 俄罗斯 | RUS_1
       - 🇺🇸 美国 | USA_1
+      - 🇩🇪 德国 | DEU_3
       - 🇩🇪 德国 | DEU_4
-      - 🇩🇪 德国 | DEU_5
       - 🇭🇰 香港 | HKG
       - 🇮🇷 伊朗 | IRN
-      - 韩国
       - 01(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 加拿大(TG:@tccjd)
       - 香港(TG:@tccjd)
-      - 美国(TG:@tccjd)
+      - 🇯🇵 日本 | JPN_2
+      - 🇩🇪 德国 | DEU_5
+      - 韩国
       - 美国(TG:@tccjd)_1
       - 阿联酋 01
       - 俄罗斯 01
@@ -520,30 +520,30 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵 日本 | JPN
-      - 🇯🇵 日本 | JPN_1
-      - 🇯🇵 日本 | JPN_2
       - 🇩🇪 德国 | DEU
       - 🇩🇪 德国 | DEU_1
       - 🇳🇱 荷兰 | NLD
       - 🇩🇪 德国 | DEU_2
-      - 🇺🇸 美国 | USA
-      - 🇩🇪 德国 | DEU_3
-      - 🇬🇧 英国 | GBR
       - 🇷🇺 俄罗斯 | RUS
+      - 加拿大(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 🇯🇵 日本 | JPN
+      - 🇯🇵 日本 | JPN_1
+      - 🇺🇸 美国 | USA
+      - 🇬🇧 英国 | GBR
       - 🇬🇧 英国 | GBR_1
       - 🇷🇺 俄罗斯 | RUS_1
       - 🇺🇸 美国 | USA_1
+      - 🇩🇪 德国 | DEU_3
       - 🇩🇪 德国 | DEU_4
-      - 🇩🇪 德国 | DEU_5
       - 🇭🇰 香港 | HKG
       - 🇮🇷 伊朗 | IRN
-      - 韩国
       - 01(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 加拿大(TG:@tccjd)
       - 香港(TG:@tccjd)
-      - 美国(TG:@tccjd)
+      - 🇯🇵 日本 | JPN_2
+      - 🇩🇪 德国 | DEU_5
+      - 韩国
       - 美国(TG:@tccjd)_1
       - 阿联酋 01
       - 俄罗斯 01
@@ -557,30 +557,30 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵 日本 | JPN
-      - 🇯🇵 日本 | JPN_1
-      - 🇯🇵 日本 | JPN_2
       - 🇩🇪 德国 | DEU
       - 🇩🇪 德国 | DEU_1
       - 🇳🇱 荷兰 | NLD
       - 🇩🇪 德国 | DEU_2
-      - 🇺🇸 美国 | USA
-      - 🇩🇪 德国 | DEU_3
-      - 🇬🇧 英国 | GBR
       - 🇷🇺 俄罗斯 | RUS
+      - 加拿大(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 🇯🇵 日本 | JPN
+      - 🇯🇵 日本 | JPN_1
+      - 🇺🇸 美国 | USA
+      - 🇬🇧 英国 | GBR
       - 🇬🇧 英国 | GBR_1
       - 🇷🇺 俄罗斯 | RUS_1
       - 🇺🇸 美国 | USA_1
+      - 🇩🇪 德国 | DEU_3
       - 🇩🇪 德国 | DEU_4
-      - 🇩🇪 德国 | DEU_5
       - 🇭🇰 香港 | HKG
       - 🇮🇷 伊朗 | IRN
-      - 韩国
       - 01(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 加拿大(TG:@tccjd)
       - 香港(TG:@tccjd)
-      - 美国(TG:@tccjd)
+      - 🇯🇵 日本 | JPN_2
+      - 🇩🇪 德国 | DEU_5
+      - 韩国
       - 美国(TG:@tccjd)_1
       - 阿联酋 01
       - 俄罗斯 01
@@ -611,30 +611,30 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本 | JPN
-      - 🇯🇵 日本 | JPN_1
-      - 🇯🇵 日本 | JPN_2
       - 🇩🇪 德国 | DEU
       - 🇩🇪 德国 | DEU_1
       - 🇳🇱 荷兰 | NLD
       - 🇩🇪 德国 | DEU_2
-      - 🇺🇸 美国 | USA
-      - 🇩🇪 德国 | DEU_3
-      - 🇬🇧 英国 | GBR
       - 🇷🇺 俄罗斯 | RUS
+      - 加拿大(TG:@tccjd)
+      - 美国(TG:@tccjd)
+      - 🇯🇵 日本 | JPN
+      - 🇯🇵 日本 | JPN_1
+      - 🇺🇸 美国 | USA
+      - 🇬🇧 英国 | GBR
       - 🇬🇧 英国 | GBR_1
       - 🇷🇺 俄罗斯 | RUS_1
       - 🇺🇸 美国 | USA_1
+      - 🇩🇪 德国 | DEU_3
       - 🇩🇪 德国 | DEU_4
-      - 🇩🇪 德国 | DEU_5
       - 🇭🇰 香港 | HKG
       - 🇮🇷 伊朗 | IRN
-      - 韩国
       - 01(TG:@tccjd)
       - 01(TG:@tccjd)_1
-      - 加拿大(TG:@tccjd)
       - 香港(TG:@tccjd)
-      - 美国(TG:@tccjd)
+      - 🇯🇵 日本 | JPN_2
+      - 🇩🇪 德国 | DEU_5
+      - 韩国
       - 美国(TG:@tccjd)_1
       - 阿联酋 01
       - 俄罗斯 01
